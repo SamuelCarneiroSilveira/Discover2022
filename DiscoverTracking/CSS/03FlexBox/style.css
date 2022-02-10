@@ -1,0 +1,11 @@
+.box {
+  display: flex;
+
+  border: dashed 1px red;
+
+  gap: 4px;
+}
+
+.box div{
+  border: 1px solid;
+}
