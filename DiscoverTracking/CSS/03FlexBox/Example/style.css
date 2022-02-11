@@ -1,0 +1,33 @@
+.page{
+  display: flex;
+  min-height: 95vh;
+
+  border: 2px solid;
+  font-size: larger;
+}
+
+aside{
+  background-color: lightgreen;
+  flex: 1;
+}
+main{
+  background-color: lightblue;
+  flex: 2;
+
+  display: flex;
+  flex-direction: column;
+    
+}
+
+main section:nth-child(1){
+  background-color: lightgoldenrodyellow;
+  flex: 2;
+}
+main section:nth-child(2){
+  background-color: lightsalmon;
+  flex: 0 150px;
+}
+main section:nth-child(3){
+  background-color: lightcoral;
+  flex: 1;
+}
